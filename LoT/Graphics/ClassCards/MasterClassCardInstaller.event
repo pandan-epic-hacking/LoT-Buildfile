@@ -1,0 +1,11 @@
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+
+#define LanceArmorClassCard 0x76
+
+ALIGN 4
+LanceArmorClassCardData:
+#incbin "Dmp/Knight (M) SALVAGED Lance {SALVAGED}.dmp"
+ALIGN 4
+LanceArmorClassCardPal:
+#incbin "Dmp/Knight (M) SALVAGED Lance {SALVAGED}.png_pal.dmp"
+setCardEntry(LanceArmorClassCard, LanceArmorClassCardData, LanceArmorClassCardPal)

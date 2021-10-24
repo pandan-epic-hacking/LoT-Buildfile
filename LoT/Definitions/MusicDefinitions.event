@@ -1,0 +1,26 @@
+
+#define Lufia_Doom 0x4
+#define TreasureOfRudrasBattleTheme 0x5
+#define Lufia2_RoS_Battle2 0x6
+#define Sortie_Formation 0x7
+#define WithUs_Song 0x8
+#define PersonalCombat 0x9
+#define Rovers 0xA
+#define UnfinishedBattleGodSyndrome 0xB
+#define FF5_Nostalgia 0xC
+#define FF5_Sealed_Away 0xD
+#define FE5_Adversity 0xE
+#define FE5_InTheBattle_Fate 0xF
+#define Dreaming 0x11 //Near Victory music is 0x10
+#define DawnOfYs 0x12
+#define HarvestDance 0x13
+#define mutecity 0x14
+
+// Vanilla
+#define AdvanceSong 0x24
+#define TensionSong 0x25
+#define LegacySong 0x2B
+#define SolveTheRiddle 0x2E
+#define WindyDaySoundEffect 0x47
+#define WindyDayBirdsSoundEffect 0x48
+#define SoftSwooshSoundEffect 0x4D
