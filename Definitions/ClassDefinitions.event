@@ -1,117 +1,103 @@
-#define Noble 0x01
-#define Noble_F 0x02
-#define MasterKnight 0x03
-#define MasterKnight_F 0x04
-#define SwordKnight 0x05
-#define LanceKnight 0x06
-#define AxeKnight 0x07
-#define BowKnight 0x08
-#define ArchKnight 0x09
-#define ForrestKnight 0x0A
-#define GreatKnight 0x0B
-#define DukeKnight 0x0C
+#define Lord 0x01
+#define YoungChief 0x02
+#define Great Lord 0x03
+#define Great Chief 0x04
+#define LanceCav 0x05
+#define LancaCav_F 0x06
+#define Paladin 0x07
+#define Paladin_F 0x08
+#define LanceArmor 0x09
+#define SwordArmor 0x0A
+#define General 0x0B
+#define AxeArmor 0x0C
 #define Thief 0x0D
-#define Manakete 0x0E
-#define SwordFighter 0x0F
-#define SwordFighter_F 0x10
-#define Swordfighter 0x0F // >:(
-#define Swordfighter_F 0x10
+#define Thief_F 0x0E
+#define SwordMerc 0x0F
+#define SwordMerc_F 0x10
 #define Hero 0x11
 #define Hero_F 0x12
 #define Myrmidon 0x13
 #define Myrmidon_F 0x14
 #define Swordmaster 0x15
 #define Swordmaster_F 0x16
-#define Thief_F 0x17
-#define Ballistician 0x18
+#define Assassin 0x17 // replace with something cool
+#define Assassin 0x18 // replace with something cool
 #define Archer 0x19
 #define Archer_F 0x1A
 #define Sniper 0x1B
 #define Sniper_F 0x1C 
-#define Scaleshot 0x1D
-#define Skyseeker 0x1E
-#define Dragonlord 0x1F
-#define Seraphknight 0x20
-#define PegasusRider 0x21
-#define Falcoknight 0x22
-#define DragonRider 0x23
-#define Dracoknight 0x24
+#define ForrestKnight 0x1D
+#define ForrestKnight_F 0x1E
+#define LanceWyvern 0x1F
+#define AxeWyvern 0x20
+#define WyvernLord 0x21
+#define WyvernLord_F 0x22 // replace with something cool
+#define DragonRider 0x23 // replace with something cool
+#define Dracoknight 0x24 // replace with something cool
 #define Mage 0x25
 #define Mage_F 0x26
 #define Sage 0x27
 #define Sage_F 0x28
 #define MageKnight 0x29
 #define MageKnight_F 0x2A
-#define HighPriest 0x2B
-#define HighPriestess 0x2C
-#define HighPriest_F 0x2C
 #define Bishop 0x2B
-#define Bishop_F 0x2C
-#define DarkMage 0x2D
-#define DarkMage_F 0x2E
-#define DarkBishop 0x2F
-#define DarkBishop_F 0x30
 #define Shaman 0x2D
 #define Shaman_F 0x2E
 #define Druid 0x2F
 #define Druid_F 0x30
-#define Bard 0x31
-#define Devotee_F 0x32
-#define Sister 0x32
-#define ThiefFighter 0x33
-#define GorgonEgg 0x34
-#define Priest 0x35
-#define Cleric 0x36
-#define RookKnight 0x37
-#define GoldKnight 0x38
-#define Troubadour 0x39
-#define Paladin 0x3A
-#define Manakete_2 0x3B
-#define Manakete_2_F 0x3C
-#define Hunter 0x3D
-#define Hunter_F 0x3E
-#define Warrior_F 0x3F
+#define Summoner 0x31 // replace with something cool
+#define Summoner_F 0x32 // replace with something cool
+#define Rogue 0x33
+#define Rogue_F 0x34
+#define GreatKnight 0x35
+#define BowArmor 0x36
+#define Recruit 0x37 // replace with something cool
+#define Manakete 0x38 // replace with something cool
+#define Manakete 0x39 // replace with something cool
+#define Paladin 0x3A // replace with something cool
+#define Manakete_2 0x3B // replace with something cool
+#define Manakete_2_F 0x3C // replace with something cool
+#define Hunter 0x3D // replace with something cool
+#define Hunter_F 0x3E // replace with something cool
+#define Fighter 0x3F  
 #define Warrior 0x40
 #define Brigand 0x41
-#define Brigand_F 0x42
-#define SwordArmor 0x43
-#define AxeArmor 0x44
-#define LanceArmor 0x45
-#define BowArmor 0x46
-#define General 0x47
-#define MageArmor 0x48
-#define Baron 0x49
-#define AxeFighter 0x4A 
-#define AxeFighter_F 0x4B
-#define Fighter 0x4A 
-#define Fighter_F 0x4B
-#define ThiefFighter_F 0x4C
+#define Pirate 0x42
+#define Berserker 0x43
+#define Monk 0x44
+#define Priest 0x45
+#define Bard 0x46
+#define Recruit 0x47 // replace with something cool
+#define LancePegasus 0x48
+#define Falcoknight 0x49
+#define Cleric 0x4A 
+#define Troubadour 0x4B
+#define Valkyrie 0x4C 
 #define Dancer 0x4D
 #define LanceSoldier 0x4E
-#define Soldier 0x4E
-#define AxeSoldier 0x4F
+#define Necromancer 0x4F // replace with something cool
 #define Fleet 0x50
-#define GhostFighter 0x51
-#define SwordKnight_Dismounted 0x52
-#define LongBallista 0x53
-#define LanceKnight_Dismounted 0x54
-#define AxeKnight_Dismounted 0x55
-#define BowKnight_Dismounted 0x56
-#define ArchKnight_Dismounted 0x57
-#define ForrestKnight_Dismounted 0x58
-#define GreatKnight_Dismounted 0x59
-#define DukeKnight_Dismounted 0x5A
-#define Scaleshot_Dismounted 0x5B
-#define Skyseeker_Dismounted 0x5C
-#define Dragonlord_Dismounted 0x5D
-#define Seraphknight_Dismounted 0x5E
-#define PegasusRider_Dismounted 0x5F
-#define Falcoknight_Dismounted 0x60
-#define DragonRider_Dismounted 0x61
-#define GorgonEgg_2 0x62
-#define Dracoknight_Dismounted 0x63
-#define MageKnight_Dismounted 0x64
-#define DracoZombie 0x65
+#define Phantom 0x51
+#define AxeMercenary 0x52
+#define AxeMercenary_F 0x53
+#define LanceSoldier_F 0x54
+#define SwordCav 0x55
+#define SwordCav_F 0x56
+#define AxeCav 0x57
+#define AxeCav_F 0x58
+#define BowFighter 0x59
+#define BowFighter_F 0x5A
+#define MageRider 0x5B
+#define MageRider_F 0x5C
+#define StaffMage 0x5D
+#define Curate 0x5E
+#define Halberdier 0x5F
+#define SwordPegasus 0x60
+#define BowScout 0x61
+#define BowScout_F 0x62
+#define SwordScout_F 0x63
+#define Warrior_F 0x64
+#define Fighter_F 0x65
 #define DemonKing 0x66
 #define MageKnight_F_Dismounted 0x67
 #define RookKnight_Dismounted 0x68
@@ -124,16 +110,18 @@
 #define Civilian_2 0x6F
 #define Civilian_F_2 0x70
 #define Civilian_3 0x71
-#define Civilian_F_3 0x72
-#define Corsair 0x73
-#define Corsair_F 0x74
-#define Berserker 0x75
-#define Berserker_F 0x76
-#define MasterKnight_Dismounted 0x77
-#define Halberdier 0x78
-#define Tent 0x79
-#define Freelancer 0x7A
-#define Champion 0x7B
-#define MasterKnight_F_Dismounted 0x7c
-#define Devotee_M 0x7D
+#define Pumpkin 0x72
+#define Chicken 0x73
+#define Horse 0x74
+#define AxeSoldier 0x75
+#define Freelancer 0x76
+#define LightRune 0x77
+#define Torch 0x78
+#define Pumpkin 0x79
+#define Supply 0x7A
+#define Sentinel 0x7B
+#define Log 0x7c
+#define BowFighter // replace with something cool
+#define AxeArmor 0x7E // replace with something cool
+#define Pupil 0x7F // replace with something cool
 
